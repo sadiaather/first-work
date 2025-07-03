@@ -1,12 +1,12 @@
 
 .header{
     box-shadow: 10px 10px 10px rgb(194, 191, 166);
-    border: 20px 20px 20px 20px;font-style: normal;
-    padding: 2px;
+    border: 20px 20px 20px 20px;
+    padding: 5px;gap: 70px; text-align: center;
 }    
 
 
-li{ display: inline; gap: 20%; padding: 80px; margin: 0px; font-size: larger;}
+li{ display: inline; gap: 1000%; padding: 90px; margin: 20px; font-size: larger;}
 h1{
      color:rgb(255, 72, 0) ;text-transform: uppercase;    font-family:'Bebas Neue'; 
      font-weight: 900;font-size: xx-large;
@@ -19,3 +19,4 @@ button{
     background-color: blue;color:white;
 }
 .pic{ display:flex; align-items: flex-start;gap: 10%; }
+span{color:orangered ; gap: 20px; gap: 40%;}
