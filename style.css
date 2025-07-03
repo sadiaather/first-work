@@ -1,3 +1,21 @@
-h1{background-color: aqua;}
-p{background-color: blue;}
-h2{background-color: blueviolet;font-size: xx-large;font-family: Arial, Helvetica, sans-serif;}
+
+.header{
+    box-shadow: 10px 10px 10px rgb(194, 191, 166);
+    border: 20px 20px 20px 20px;font-style: normal;
+    padding: 2px;
+}    
+
+
+li{ display: inline; gap: 20%; padding: 80px; margin: 0px; font-size: larger;}
+h1{
+     color:rgb(255, 72, 0) ;text-transform: uppercase;    font-family:'Bebas Neue'; 
+     font-weight: 900;font-size: xx-large;
+}
+h2{
+    text-transform: uppercase;font-size: x-large;font-style: bold;font-family: 'Bebas Neue';
+    font-weight: 900;font-size: xx-large;
+}
+button{
+    background-color: blue;color:white;
+}
+.pic{ display:flex; align-items: flex-start;gap: 10%; }
