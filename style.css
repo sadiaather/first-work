@@ -1,20 +1,32 @@
-body{margin: 0; padding: 0; background-color: gainsboro;}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: gainsboro;
+}
+
 .header {
     box-shadow: 10px 10px 10px rgb(194, 191, 166);
     border: 20px 20px 20px 20px;
     padding: 5px;
-    gap: 70px;
-    text-align: center;
-    margin-left: 50px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+
 }
 
 
-li {
-    display: inline;
-    gap: 1000%;
-    padding: 90px;
-    margin: left 40px;
+
+ul {
+    display: flex;
+    justify-content: end;
+    gap: 50px;
+    margin: 10px;
     font-size: larger;
+    list-style: none;
+}
+
+li {
+    justify-content: end;
     text-decoration: none;
 }
 
@@ -46,7 +58,7 @@ button {
 .pic {
     display: flex;
     align-items: flex-start;
-    gap: 10%;
+    gap: 30%;
 }
 
 span {
@@ -56,7 +68,9 @@ span {
 }
 
 .cantainer {
-    background-color: gainsboro; gap:40px ;
+    background-color: gainsboro;
+    gap: 40px;
+    margin-top: 20px;
 }
 
 .main {
@@ -64,7 +78,8 @@ span {
     background-color: gainsboro;
     gap: 5%;
     margin-top: 50px;
-    padding: 20PX;
+    justify-content: space-around;
+
 }
 
 a {
@@ -76,6 +91,8 @@ a {
     justify-content: center;
     padding: 30px;
     gap: 10%;
+    width: 5000px;
+
 }
 
 .img {
@@ -93,44 +110,84 @@ a {
     align-items: center;
     margin-top: 15px;
     font-size: larger;
+
 }
 
 .main2 {
     padding: 20px;
-    margin-right: 50px;
+    margin-right: 60px;
     margin-top: 20px;
     justify-items: center;
     gap: 5%;
+
 }
 
 .troli {
-     display: inline; 
+    display: flex;
+    justify-content: space-around;
     margin: 20px;
     padding: 20px;
     gap: 30px;
     flex: 1;
 }
+
 .boxer {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     border-radius: 10px;
     background-color: white;
-    width: 300px;
+    width: 400px;
     height: 150px;
     box-shadow: 0 0 15px rgba(0 0, 0, alpha);
-    padding: 10px 20px;
-    gap:20px ;
-    align-items: center;
-    margin: 20px;}
-.box2 {
-    text-align: center;
-    border-radius: 10px;
-    flex-direction: column;
+    padding: 20px;
+    margin: 20px
 }
-.letter{background-color:white;border-radius: 10px;width: 700px;height: 150px;
-    text-align: center;margin-left:200px;margin-top: 100px;}
-   .bit{text-align: center;font-family: 'Courier New', Courier, monospace;}
-   input{font-size:x-large;}
-   input button{position: relative;}
-   button:hover{color: hotpink;}
-   .footer{background-color: aliceblue; text-align: center;font-size: larger;}
-   #last{text-align: center; font-size: larger;}
+
+.box2 {
+    display: flex;
+    justify-content: right;
+    text-align: center;
+}
+
+
+
+
+.letter {
+    background-color: white;
+    border-radius: 10px;
+    width: 700px;
+    height: 150px;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+
+.bit {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+}
+
+input {
+    font-size: x-large;
+}
+
+input button {
+    position: absolute;
+}
+}
+
+button:hover {
+    color: hotpink;
+}
+
+.footer {
+    background-color: white;
+    text-align: center;
+    font-size: larger;
+}
+
+#last {
+    text-align: center;
+    font-size: larger;
+}
